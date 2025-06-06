@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to right,
+        #d6c5d994,
+        #84B1D9,
+        #0D448C,
+        #02142ca2
+        )
+    }
+    
+    div#principal>header>h1 {
+        font-size: 1.7em;
+    }
+    
+    
+    div#principal>header>nav>a {
+        font-size: 1.1em;
+        
+    }
+    
+    
+    div#principal>main>section>h2 {
+        font-size: 1.3em;
+    }
+    
+    div#principal>main>section>p {
+        font-size: 1.1em;
+    }
+    
+    div#principal>main>section>h3 {
+        color: #011526;
+        font-size: 1.2em;
+    }
+    
+    div#principal>main>section>a {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div#principal>main>section>a>img {
+        width: 80%;
+        height:75%;
+    }
+    
+    
+    div#principal>main>section>div#flex-column {
+        display: flex;
+        flex-flow: row   nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#principal>main>section>div#flex-column>div.listaflex {
+        display: flex;
+        flex-flow: column  nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#principal>main>section>div#flex-column>div.listaflex>a {
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    div#principal>main>section>div#flex-column>div.listaflex>h3 {
+        font-size: 1.2em;
+    }
+    
+    
+    div#principal>main>section>div#flex-column>div.listaflex>a>img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    div#principal>main>section>div#flex-column>div.hr {
+        width: 1px;
+        height: 400px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to right,
+        #d6c5d994,
+        #84B1D9,
+        #0D448C,
+        #02142ca2
+        )
+    }
+    div#principal {
+        width: 55%;
+        background-color: whitesmoke;
+        margin: 10px 0px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px #ffffff8e;
+    }
+
+    div#principal>header>h1 {
+        font-size: 1.7em;
+    }
+    
+    
+    div#principal>header>nav>a {
+        font-size: 1.1em;
+        
+    }
+    
+    
+    div#principal>main>section>h2 {
+        font-size: 1.3em;
+    }
+    
+    div#principal>main>section>p {
+        font-size: 1.1em;
+    }
+    
+    div#principal>main>section>h3 {
+        color: #011526;
+        font-size: 1.2em;
+    }
+    
+    div#principal>main>section>a {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div#principal>main>section>a>img {
+        width: 80%;
+        height:75%;
+    }
+    
+    
+    div#principal>main>section>div#flex-column {
+        display: flex;
+        flex-flow: row   nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#principal>main>section>div#flex-column>div.listaflex {
+        display: flex;
+        flex-flow: column  nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#principal>main>section>div#flex-column>div.listaflex>a {
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    div#principal>main>section>div#flex-column>div.listaflex>h3 {
+        font-size: 1.2em;
+    }
+    
+    
+    div#principal>main>section>div#flex-column>div.listaflex>a>img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    div#principal>main>section>div#flex-column>div.hr {
+        width: 1px;
+        height: 400px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+   
+        
+}
