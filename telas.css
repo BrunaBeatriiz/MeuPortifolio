@@ -19,6 +19,8 @@
         font-size: 1.1em;
         
     }
+
+   
     
     
     div#principal>main>section>h2 {
@@ -85,6 +87,10 @@
 
     }
 
+    div#principal>main>section>div#flex-column>div#none02 {
+        display: none;
+    }
+
     
 }
 
@@ -114,7 +120,8 @@
         font-size: 1.1em;
         
     }
-    
+
+   
     
     div#principal>main>section>h2 {
         font-size: 1.3em;
@@ -181,4 +188,8 @@
     }
    
         
+
+    div#principal>main>section>div#flex-column>div#none02 {
+        display: none;
+    }
 }

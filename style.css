@@ -62,7 +62,7 @@ div#principal>header>nav>a {
     border-right: 1px solid #011526;
 }
 
-div#principal>header>nav>a#none {
+div#principal>header>nav>a.none {
     border-right: none;
 }
 
@@ -166,3 +166,38 @@ div#principal>main>section>div#flex-column>div.hr {
     margin-bottom: 15px;
     margin-top:15px;
 }
+
+
+div#principal>main>section>h3.extras {
+    color: #31221a;
+    font-size: 1.1em;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px #31221a46;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul:first-of-type li:nth-child(1) i {color:orangered}
+ul:first-of-type li:nth-child(2) i {color:rgb(0, 0, 255)}
+ul:first-of-type li:nth-child(3) i {color:yellow}
+ul:first-of-type li:nth-child(4) i {color:rgb(11, 43, 185)}
+
+ul:last-of-type li:nth-child(1) i {color:rgb(50, 36, 170)}
+ul:last-of-type li:nth-child(2) i {color:orangered}
+ul:last-of-type li:nth-child(3) i {color:green}
+
+
+
+
+                        /* fab fa-html5
+                        fab fa-css3-alt
+                        fab fa-js
+                        fab fa-react
+                       
+                        fas fa-database
+                        fas fa-code
+                        fab fa-node-js */
