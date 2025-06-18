@@ -169,15 +169,23 @@ div#principal>main>section>div#flex-column>div.hr {
     margin-top:15px;
 }
 
+div#center{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 a#projetos{
     text-decoration: none;
     color: #31221a;
     font-size: 1.1em;
     border: 1px solid black;
     padding: 5px;
+    text-align: center;
     border-radius: 4px;
-    width: 90%;
-    margin-left: 80px;
+    width: 70%;
+    margin-left: 0px;
     margin-bottom: 5px;
     box-shadow: 1px 1px 2px #31221a6e;
    
@@ -214,12 +222,23 @@ ul:last-of-type li:nth-child(3) i {color:green}
 
 
 
+section > ol{
+    list-style: none;
+    padding: 0px 10px;
+}
 
-                        /* fab fa-html5
-                        fab fa-css3-alt
-                        fab fa-js
-                        fab fa-react
-                       
-                        fas fa-database
-                        fas fa-code
-                        fab fa-node-js */
+section>ol>li{
+    margin-bottom: 4px;
+}
+
+section>ol>li>a{
+    text-decoration: none;
+    color: #31221a;
+}
+section>ol>li>a:hover{
+    text-decoration: none;
+    color:#0A66C2;
+}
+ol:first-of-type li:nth-child(1) i {color:#D44638}
+ol:first-of-type li:nth-child(2) i {color:#0A66C2}
+ol:first-of-type li:nth-child(3) i {color: #181717}
