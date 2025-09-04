@@ -50,6 +50,9 @@ div#principal>header>nav {
     margin-top: 5px;
     padding: 5px;
     padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 div#principal>header>nav>a {
@@ -59,7 +62,18 @@ div#principal>header>nav>a {
     font-size: 1.0em;
     padding: 5px;
     padding-left: 0px;
-    border-right: 1px solid #011526;
+    transition: background-color 0.5s;
+}
+
+div#principal>header>nav>a:hover {
+    background-color:  #608BA6;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 2, 95, 0.582);
+    border: 1px solid white;
+}
+div#principal>header>nav>a:hover svg path {
+    fill: whitesmoke;
 }
 
 div#principal>header>nav>a.none {
