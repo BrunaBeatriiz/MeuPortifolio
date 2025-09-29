@@ -56,6 +56,8 @@ div#principal>header>nav {
 }
 
 div#principal>header>nav>a {
+    display: block;
+    margin: auto;
     color: black;
     text-decoration: none;
     text-shadow: 1px 1px 1px #31221a8c;
@@ -64,21 +66,34 @@ div#principal>header>nav>a {
     padding-left: 0px;
     transition: background-color 0.5s;
 }
+div#principal>header>nav>a>svg {
+   display: block;
+   margin: auto;
+}
+div#principal>header>nav>a>p {
+    color: black;
+    text-shadow: 1px 1px 1px #31221a8c;
+    font-size: 1.0em;
+}
 
 div#principal>header>nav>a:hover {
-    background-color:  #608BA6;
+    background-color: rgb(249, 249, 255);
     padding: 6px;
-    border-radius: 4px;
+    border-radius:8px ;
     box-shadow: 1px 1px 2px rgba(0, 2, 95, 0.582);
-    border: 1px solid white;
+    border: 0.5px solid rgb(0, 0, 0);
+    padding: 10px; 
 }
 div#principal>header>nav>a:hover svg path {
-    fill: whitesmoke;
+    fill: rgb(8, 0, 128);
+}
+div#principal>header>nav>a:hover p {
+    color: rgb(8, 0, 128);
 }
 
-div#principal>header>nav>a.none {
+/* div#principal>header>nav>a.none {
     border-right: none;
-}
+} */
 
 div#principal>main>section {
     padding: 5px;
