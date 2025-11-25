@@ -2,12 +2,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: linear-gradient(to right,
+        /* background-image: linear-gradient(to right,
         #d6c5d994,
         #84B1D9,
         #0D448C,
         #02142ca2
-        )
+        ) */
     }
     
     div#principal>header>h1 {
@@ -96,12 +96,12 @@
 
 @media screen and (min-width: 992px) {
     body{
-        background-image: linear-gradient(to right,
+        /* background-image: linear-gradient(to right,
         #d6c5d994,
         #84B1D9,
         #0D448C,
         #02142ca2
-        )
+        ) */
     }
     div#principal {
         width: 55%;

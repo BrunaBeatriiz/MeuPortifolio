@@ -19,7 +19,7 @@
 #011526*/
 
 body {
-    background-color: #608BA6;
+    background-color: #87a2b33d;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
 
 div#principal {
     width: 80%;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.904);
     margin: 10px 0px;
     border-radius: 6px;
     box-shadow: 2px 2px 4px #ffffff8e;
