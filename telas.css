@@ -115,8 +115,11 @@
         font-size: 1.7em;
     }
     
-    
-    div#principal>header>nav>a {
+    nav{
+        width: 100vw;
+    }
+
+    nav>a {
         font-size: 1.1em;
         
     }
@@ -191,5 +194,11 @@
 
     div#principal>main>section>div#flex-column>div#none02 {
         display: none;
+    }
+
+    footer{
+        width: 100vw;
+        justify-content: space-around;
+        padding: 0px 90px;
     }
 }
